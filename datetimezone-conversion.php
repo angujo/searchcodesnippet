@@ -1,4 +1,6 @@
 
+<?php
+
 function date_convert($dt, $tz1, $df1, $tz2, $df2) {
   $res = '';
   if(!in_array($tz1, timezone_identifiers_list())) { // check source timezone
